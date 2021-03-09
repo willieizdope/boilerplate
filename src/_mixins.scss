@@ -1,0 +1,9 @@
+// combined attributes that we can load in at once. think about...
+@mixin box {
+  background: invert($primary-color);
+  color: $black;
+  border: 10px solid black;
+  padding: 25px;
+  border-radius: $border;
+  font-variant: small-caps;
+}

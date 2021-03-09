@@ -1,0 +1,24 @@
+body {
+  background: $bg;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: $black;
+  font-size: $h1size;
+  padding: $padding;
+  text-align: center;
+
+  &:hover {
+    color: $header-hover;
+    border: $border solid $header-hover;
+    border-radius: 30px;
+  }
+  //end &:hover
+}
+//end h1
+
+p {
+  @include box;
+}
