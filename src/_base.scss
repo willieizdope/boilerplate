@@ -11,9 +11,6 @@ h1 {
   text-align: center;
 
   &:hover {
-    color: $header-hover;
-    border: $border solid $header-hover;
-    border-radius: 30px;
   }
   //end &:hover
 }
